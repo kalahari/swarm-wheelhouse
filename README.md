@@ -1,7 +1,11 @@
-[![taylor swift](https://img.shields.io/badge/secured%20by-taylor%20swift-brightgreen.svg)](https://twitter.com/SwiftOnSecurity)
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen) [![GitHub version](https://badge.fury.io/gh/kalahari%2Fswarm-wheelhouse.svg)](https://badge.fury.io/gh/kalahari%2Fswarm-wheelhouse) [![Dependency Status](https://david-dm.org/kalahari/swarm-wheelhouse.svg)](https://david-dm.org/kalahari/swarm-wheelhouse)
+
+[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
+[![GitHub version](https://badge.fury.io/gh/kalahari%2Fswarm-wheelhouse.svg)](https://badge.fury.io/gh/kalahari%2Fswarm-wheelhouse)
+[![Dependency Status](https://david-dm.org/kalahari/swarm-wheelhouse.svg)](https://david-dm.org/kalahari/swarm-wheelhouse)
+[![devDependency Status](https://david-dm.org/kalahari/swarm-wheelhouse/dev-status.svg)](https://david-dm.org/kalahari/swarm-wheelhouse#info=devDependencies)
 [![Issue Stats](http://issuestats.com/github/kalahari/swarm-wheelhouse/badge/pr?style=flat)](http://issuestats.com/github/kalahari/swarm-wheelhouse)
-[![Issue Stats](http://issuestats.com/github/kalahari/swarm-wheelhouse/badge/issue?style=flat)](http://issuestats.com/github/kalahari/swarm-wheelhouse) [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/kalahari/swarm-wheelhouse)
+[![Issue Stats](http://issuestats.com/github/kalahari/swarm-wheelhouse/badge/issue?style=flat)](http://issuestats.com/github/kalahari/swarm-wheelhouse)
+[![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/kalahari/swarm-wheelhouse)
 
 <p align="center">
   <a href="https://angularclass.com" target="_blank">
