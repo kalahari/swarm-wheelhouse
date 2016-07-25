@@ -99,7 +99,7 @@ module.exports = function(config) {
      * start these browsers
      * available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
      */
-    browsers: process.env.SAUCE_USERNAME [
+    browsers: [
       'Chrome'
     ],
 
@@ -113,7 +113,9 @@ module.exports = function(config) {
   if (process.env.SAUCE_USERNAME) {
     cfg.browsers = Object.keys(customLaunchers);
     cfg.sauceLabs = {
-        testName: 'Docker Swarm Wheelhouse Web App Unit Tests'
+        testName: 'Docker Swarm Wheelhouse Web App Unit Tests',
+        tunnelIdentifier: process.env.TRAVIS_JOB_NUMBER,
+        startConnect: false
     };
     cfg.customLaunchers = customLaunchers;
     cfg.reporters = ['dots', 'saucelabs'];
