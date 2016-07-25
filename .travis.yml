@@ -1,7 +1,19 @@
 language: node_js
+
 node_js:
   - "5"
   - "6"
   - "node"
 
 sudo: false
+
+addons:
+  sauce_connect:
+    username: "kalahari"
+    access_key:
+      secure: "Rsqgfg/8MDSnDF4+Dp6ZPd29qzxvj4jUbT6yzBllnWjfhJRJAxHoO8LfxXOTbrhNIKlMWIk2jnkdEklkFB5imt5Hk5HVxKCgtR/J3iKNkSXzDe7iHOhfgM08lA1rtRDz5WoUZRWQXfBskRwa1KGJ6cH5IZcSGRY2rB4EzMSSvGmQijCZYE1BzcYAXvhsPShmohhiXjvXNxd/F580eluzpMduHmIkj9ZOivbWqEVNFtnSYKyuvSq7EDhNeBukLSZJcqn0J/HQPCn0jLxlSi5xfIZY4AUDZrSAG1VX0MNtcqFVR67Rr7f9nOP2y/v+EkXk0xGIEzQpEezi9bi3Mch3S/+xTs72gdK+EJD8Bb7XLvLmbBAeOG6E6KbaCdSDZlb37QlRD/l3GnBt3GzfjRfawDLedFsMUcJ5MfCTGt6we3mo8FOwv+O/CJwaRAat0E+qegWBMwhUqyqbuCYlweAfqHBS3OWpEhvVeACUjL4heUzGDsrzUHf8HB89qUIVxzrShZrW6vYgm9NXCpxjz6POJ7MLHzeFkmvnWiD8ZlHX7TTQLvd2YugtS1mGXNHzZS2XVJTT3orp33PmOU9qCcNJi017QTVMYLkHBBYXDJDo/HYnnpDz61kGr/xYv7j6iOntnBQ7k7kblRsrXnCB9HQ6IT4Su18BEKMckyGt8bZ9bM0="
+
+env:
+  global:
+    - SAUCE_USERNAME=kalahari
+    - secure: "iYrGFR9NCtGfF0CcNLQQa0Vk+gfKfv53Y/R1lDpCv18dH+7J+4O+ETT+ygdZ0lzOVAzV8W9ojqUgmxg3ObWktzjug2o8EQBNaptxtgKv/FkyzR0w5mflRDkVEnvsLsvyklKU0fXWu9pXGGPl0NCmYMoaPil+Is5ojo1Wb62ogsFSrJplPaBgxHHc6cL7t3yXrcDkf2fPlsyPZPnPnhS4QB4imdz+5PqUPbejtSbBcZWau8MEMrNflrWG/4APITHuMm895HZK3F/i07w10Y4XwKyN6th8PeE60sgMzbbem/UBoGGuUGK9fme/BjKGweFwrneVAeMXkU6vhj0Fx+3PvEUmU8YIClIMU0sw1VcX1uhph9AQt1wKhl4k/WJJ7H/nSyYWxCPzQrIbfmfv7A+/cXXv6MHU8lOFYp+LvhNqy/87vt2mnWCE8CB4IZsGCRDAcWrHKJCQTSt1fuAs3Q35IxIHAnRlHZA5pIymYbAQSlTBgTKq9X06BHU/nej89m78pT7ujSCewP0UcsXnOD7BnKvD+wDpRlxF63h+Q6b2X/Wz92QJgGn5K90/e0D64wkOzAMThiybi5GjnykAbihZG3BaYlDQdvnZpT+gKuZtMXUl+DkdMmibGkU5sSqTgeVhTLy8WQbZCbLcoFnvZRcELETj/bG3PtGYA5tnIo7w410="
