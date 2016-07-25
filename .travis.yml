@@ -1,11 +1,19 @@
 language: node_js
 
 node_js:
+  - "4"
   - "5"
   - "6"
-  - "node"
 
 sudo: false
+
+notifications:
+  webhooks:
+    urls:
+      - secure: "MgHJkba2Qzb8YUjPLEUp3CCWAR475mlGprEWSbi6/g0OlSLeaIHEI8/5IdcOG8BcPeJxvAd++QMmxF1aWMJ1pIROw5S9u5Ownb2wj/1GCDY3+b2XyfCNOF5q1Su+xz4ZlObJmnOlD8y9/xU/s+ypq1nXGrVD1v8t688EJo8JI7vpEAxJqZufoOGvA/0nLENFQ/tJN1roB1+3upHs2igNVcmhPwUioMggabDFeBm5NsG83zcAvPUJWuGX7UEfCfdAQhLyO0TobPf7t5pUPcJMqGPRoazQOqfmyfoYumINNHMeRnxeHAfKshPc0OGcSRTJxs259iJFDWON7bEbYn6K5pq3MUcOw9P3kUU+50rPzWt/rG0AN4MVlPSOrg53ezPvz6UVUpmCHc5Thr67tFOUDRo3ZawVjXaoAtzqXpp+o6SbTdOM8ynwW/1T8UjEtzLij3zsZnk5Y4IEtY+viLrihjeVZyVLF+nUrHuSx9SyKmSbhVn/6fcnONM9cZyDGmPrHqWCvwdLKVgywO6QjGKJd0I+i9NkYZhwcd+oS6FRWnE+4cIu8q1WX9ILMmWUl6+31Tdp6lJaTbEnbIMaccztPfx6IUV6a3lfGObzaL2JK7sd2QxI3b838ZCueYFFWMbtP1+NjWcXKz+huTF3v1X+/6vakmZG7GZ0iDVQlsZrFVc="
+    on_success: change  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: never     # options: [always|never|change] default: always
 
 addons:
   sauce_connect:

@@ -1,5 +1,6 @@
 
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
+[![Build Status](https://saucelabs.com/buildstatus/kalahari)](https://saucelabs.com/beta/builds/0d2d574656e6483ca6fec04176b327e8)
+[![Build Status](https://travis-ci.org/kalahari/swarm-wheelhouse.svg?branch=master)](https://travis-ci.org/kalahari/swarm-wheelhouse)
 [![GitHub version](https://badge.fury.io/gh/kalahari%2Fswarm-wheelhouse.svg)](https://badge.fury.io/gh/kalahari%2Fswarm-wheelhouse)
 [![Dependency Status](https://david-dm.org/kalahari/swarm-wheelhouse.svg)](https://david-dm.org/kalahari/swarm-wheelhouse)
 [![devDependency Status](https://david-dm.org/kalahari/swarm-wheelhouse/dev-status.svg)](https://david-dm.org/kalahari/swarm-wheelhouse#info=devDependencies)
